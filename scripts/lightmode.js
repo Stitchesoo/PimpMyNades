@@ -2,7 +2,6 @@ const colorButton = document.getElementById("colorModeButton");
 const scrollButton = document.getElementById("scrollToTopButton");
 const logo = document.getElementById("main-logo");
 const bodyBackground = document.querySelector("body");
-const colorModeIcon = document.getElementById("colorMode")
 
 
 function currentColorMode() {
@@ -18,6 +17,7 @@ function lightMode() {
     bodyBackground.classList.add("backgroundLight");
     logo.innerHTML = "<img id='logo' src='images/logo-black.png'>";
     scrollButton.style.backgroundColor = "rgba(240, 240, 240, 0.6)";
+    
 };
 
 function nightMode() {

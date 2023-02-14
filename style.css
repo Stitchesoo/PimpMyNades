@@ -295,8 +295,8 @@ video {
 /* MEDIA QUERIES */
 
 @media all and (max-width: 980px) {
-    
-    
+
+
     video {
         width: 280px;
         height: 180px;
@@ -326,7 +326,7 @@ video {
     }
 
     .section-header {
-        height: 1fr;
+        height: 150px;
         background-attachment: fixed;
     }
 
